@@ -14,7 +14,7 @@ Configure NTP on R1, R2, and R3. Verify results.
 
 <h2>Walk-through:</h2>
 Configure R1 with clock timezone settings, 1.1.1.1 NTP server, master and authentication.
-R1#clock set 12:00:00 Dec 30 2020
+R1#clock set 12:00:00 Dec 30 2020<br />
 R1#conf t<br />
 R1(config)#clock timezone EST -5<br />
 R1(config)#ntp server 1.1.1.1<br />
